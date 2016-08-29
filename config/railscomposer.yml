@@ -8,14 +8,14 @@ development:
   database: postgresql
   templates: erb
   tests: rspec
-  continuous_testing: guard
+  continuous_testing: none
   frontend: bootstrap3
   email: gmail
   authentication: devise
-  devise_modules: confirmable
+  devise_modules: default
   omniauth_provider: 
   authorization: roles
-  form_builder: simple_form
+  form_builder: none
   pages: about+users
   layouts: modern_business
   locale: none
@@ -27,4 +27,4 @@ development:
   better_errors: true
   pry: false
   rvmrc: 
-  dashboard: administrate
+  dashboard: none
